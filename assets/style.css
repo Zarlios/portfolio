@@ -24,6 +24,12 @@
     flex-direction: column;
     justify-content: center;
     height: 500px;
+    width: 90em;
+    padding-left: 10em;
+}
+
+#content p {
+    width: 50%;
 }
 
 #content img {
@@ -32,6 +38,9 @@
 }
 
 #pic {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFF;
     height: 500px;
     width: 500px;
@@ -62,32 +71,17 @@
     border-radius: 50%;
     
 }
- a, a:visited {
-    color: #FC7200 !important;
+
+a, a:visited {
+    color: #FF9640 !important;
 }
 
-a:hover, a:active {
+a:hover, a.active {
     color: black !important;
 }
 
 #bi #bi-facebook {
     font-size: 4em;
-}
-
-.row {
-    /* border: 1px solid black; */
-}
-
-.col {
-    /* border: 1px solid black; */
-}
-
-.col-md-auto {
-    /* border: 1px solid black; */
-}
-
-#test {
-    border: 1px solid black;
 }
 
 #container h1 {
